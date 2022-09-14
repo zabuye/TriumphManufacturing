@@ -1,0 +1,21 @@
+option "operating_currency" "USD"
+2022-8-13 open Assets:PPE:Equipment
+2022-8-13 open Equity:Ebe
+2022-8-13 * "Purchased comgrow CNC"
+ Equity:Ebe                                         -347.37 USD
+ Assets:PPE:Equipment                                347.37 USD
+2022-8-24 open Assets:Inventory:Planks
+2022-8-24 open Equity:Kent
+2022-8-24 * "Purchased woods planks for testing"
+  Equity:Kent                                         -5.35 USD
+  Assets:Inventory:Planks                              5.35 USD
+2022-9-1 open Equity:Jacob
+2022-9-1 open Assets:Fee:Licenses
+2022-9-1 open Assets:Fee:EIN
+2022-9-1 * "Purchased EIN"
+	Equity:Jacob 	-200 USD
+	Assets:Fee:EIN 	200 USD
+2022-9-3 open Assets:Cash:Petty
+2022-9-3 * "Entrusted petty cash for inventory"
+	Equity:Ebe                                            -100 USD
+	Assets:Cash:Petty                                      100 USD
