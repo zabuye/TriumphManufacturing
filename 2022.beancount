@@ -13,9 +13,13 @@ option "operating_currency" "USD"
 2022-9-1 open Assets:Fee:Licenses
 2022-9-1 open Assets:Fee:EIN
 2022-9-1 * "Purchased EIN"
-	Equity:Jacob 	-200 USD
-	Assets:Fee:EIN 	200 USD
+	Equity:Jacob                                          -200 USD
+	Assets:Fee:EIN                                         200 USD
 2022-9-3 open Assets:Cash:Petty
 2022-9-3 * "Entrusted petty cash for inventory"
 	Equity:Ebe                                            -100 USD
 	Assets:Cash:Petty                                      100 USD
+2022-9-8 * "City registration"
+    Equity:Ebe                                          -75 USD
+  Equity:Jacob                                          -70 USD
+  Assets:Fee:Licenses                                   145 USD
